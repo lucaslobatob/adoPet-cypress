@@ -5,8 +5,6 @@ describe('Página de login', () => {
     })
 
     it('Vai preencher o formulário de login corretamente e vai voltar para o usuário', () => {
-        cy.get('[data-test="input-loginEmail"]').type("lucas@email.com"); // Aqui o cypress irá preencher o campo "email"
-        cy.get('[data-test="input-loginPassword"]').type("Senha123"); // Aqui se preenche o campo "senha"
-        cy.get('[data-test="submit-button"]').click(); // Aqui o cypress irá clicar no botão de entrar
+        cy.login("lucas@email.com", "Senha123");
     })
 })
