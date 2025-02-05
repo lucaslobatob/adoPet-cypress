@@ -1,0 +1,106 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-02-05T12:59:12.646Z",
+    "end": "2025-02-05T12:59:17.780Z",
+    "duration": 5134,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "6dbca0bd-4669-422d-9389-d82357369de4",
+      "title": "",
+      "fullFile": "cypress/e2e/login-correto.cy.js",
+      "file": "cypress/e2e/login-correto.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "33dff7e8-8c56-4a24-8cbe-919ba5ccb8e6",
+          "title": "Página de login",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Vai preencher o formulário de login corretamente e vai voltar para o usuário",
+              "fullTitle": "Página de login Vai preencher o formulário de login corretamente e vai voltar para o usuário",
+              "timedOut": null,
+              "duration": 2460,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.login(\"lucas@email.com\", \"Senha123\");",
+              "err": {},
+              "uuid": "85ddf9b9-cc64-4679-b4a7-97fd58f3d82c",
+              "parentUUID": "33dff7e8-8c56-4a24-8cbe-919ba5ccb8e6",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "85ddf9b9-cc64-4679-b4a7-97fd58f3d82c"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 2460,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports",
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "timestamp": "mmddyyyy_HHMMss"
+      },
+      "version": "6.2.0"
+    }
+  }
+}
